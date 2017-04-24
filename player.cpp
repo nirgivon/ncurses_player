@@ -72,6 +72,8 @@ int Player::getmv()
         default:
             break;
     }
+    if (mvwinch(playerwin, yLoc, xLoc) == '.')
+        carecter = '=';
     return key;
 }
 

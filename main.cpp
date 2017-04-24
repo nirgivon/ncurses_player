@@ -14,7 +14,7 @@ int main(int argc, char ** argv)
 
     // get screen size
     int yMax, xMax;
-    int height = 15;
+    int height = 20;
     int width = 40;
     getmaxyx(stdscr, yMax, xMax);
 
